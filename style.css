@@ -1,0 +1,52 @@
+body{
+
+    background-color: cadetblue;
+}
+
+
+.game {
+
+    width: 255px;
+
+     text-align: center;
+     margin: 150px auto;
+     color: white;
+     font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        font-weight: 500;
+        /* margin-top: 50%; */
+  
+}
+
+
+span {
+color: yellow;
+}
+
+.title {
+
+    padding: 5px 0;
+  margin: 5px 0;
+    background-color: #f25;
+
+}
+
+.square {
+     
+    width: 80px;
+    height: 80px;
+    background-color: #f25;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+    cursor: pointer;
+
+
+  
+}
+
+
+.square:hover {
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
